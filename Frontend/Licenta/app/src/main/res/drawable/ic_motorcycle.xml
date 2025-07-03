@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Ghidon cu cerc în mijloc (o singură linie continuă) -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M6,8h12M12,8m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0"/>
+    <!-- Corp scuter -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M9,11L15,11A2,2 0,0 1,17 13L17,15A2,2 0,0 1,15 17L9,17A2,2 0,0 1,7 15L7,13A2,2 0,0 1,9 11z"/>
+    <!-- Roată -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M12,19m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"/>
+</vector> 

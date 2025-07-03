@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">EasePark</string>
+
+    <!-- Titles -->
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_profile_screen">Profile</string>
+    <string name="title_vehicles">Vehicles</string>
+    <string name="title_reservations">Bookings</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_map">Map</string>
+    <string name="title_2fa_setup">2-Factor Authentication Setup</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_vehicles">Vehicles</string>
+    <string name="nav_bookings">Bookings</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Actions -->
+    <string name="action_reserve">Reserve</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_enable_2fa">Enable 2-Factor Authentication</string>
+    <string name="action_verify">Verify</string>
+    <string name="action_add_vehicle">Add Vehicle</string>
+    <string name="action_update_profile">Update Profile</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_delete_vehicle">Delete Vehicle</string>
+    <string name="delete_vehicle">Delete Vehicle</string>
+    <string name="action_confirm_reservation">Confirm Reservation</string>
+    <string name="action_extend_reservation">Extend</string>
+    <string name="action_process_payment">Process Payment</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_show_parking_spots">Show Parking Spots</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_close">Close</string>
+    <string name="action_submit_code">Submit Code</string>
+
+    <!-- Hints & Placeholders -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_license_plate">License Plate</string>
+    <string name="hint_brand">Brand</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_year">Manufacturing Year</string>
+    <string name="vehicle_type_icon">Vehicle type icon</string>
+    <string name="hint_2fa_token">6-digit code</string>
+    <string name="helper_2fa_token">Enter the code from your authenticator app</string>
+
+    <!-- Labels & UI Text -->
+    <string name="label_no_account">No account\? Register</string>
+    <string name="label_have_account">Already have an account? Login</string>
+    <string name="label_back_to_login">Back to Login</string>
+    <string name="label_select_vehicle">Select Vehicle</string>
+    <string name="label_start_time">Start Time</string>
+    <string name="label_end_time">End Time</string>
+    <string name="label_vehicle_type">Vehicle Type</string>
+    <string name="label_active_reservations">Active Bookings</string>
+    <string name="label_past_reservations">Past Bookings</string>
+    <string name="label_total_price">Total: %.2f RON</string>
+    <string name="label_price_per_hour">%.2f RON/hour</string>
+    <string name="label_my_location">My Location</string>
+    <string name="label_search_location">Search Location</string>
+    <string name="label_vehicle_type_icon">Vehicle type icon</string>
+
+    <!-- Statuses -->
+    <string name="status_available">Available</string>
+    <string name="status_occupied">Occupied</string>
+    <string name="status_reserved">Reserved</string>
+    <string name="status_maintenance">Maintenance</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="status_loading">Loading...</string>
+    <string name="status_error">Error</string>
+    <string name="status_success">Success</string>
+
+    <!-- Messages & Toasts -->
+    <string name="msg_login_failed">Login failed</string>
+    <string name="msg_register_failed">Registration failed</string>
+    <string name="msg_passwords_dont_match">Passwords do not match</string>
+    <string name="msg_vehicle_added">Vehicle added successfully</string>
+    <string name="msg_vehicle_updated">Vehicle updated successfully</string>
+    <string name="msg_reservation_cancelled">Booking cancelled successfully</string>
+    <string name="msg_reservation_created">Booking created successfully</string>
+    <string name="msg_no_active_bookings">You have no active bookings</string>
+    <string name="msg_no_past_bookings">You have no past bookings</string>
+    <string name="msg_no_parking_spots">No parking spots in this area</string>
+    <string name="msg_no_data">No data available</string>
+    <string name="instructions_2fa_setup">Open your authenticator app (e.g., Google Authenticator), add a new setup key, and enter the secret code below. Keep this key safe.</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_invalid_name">Invalid name</string>
+    <string name="error_invalid_phone">Invalid phone number</string>
+    <string name="error_invalid_license_plate">Invalid license plate</string>
+    <string name="error_invalid_brand">Invalid brand</string>
+    <string name="error_invalid_model">Invalid model</string>
+    <string name="error_no_vehicle_selected">Please select a vehicle</string>
+    <string name="error_invalid_time">Please select a valid time</string>
+    <string name="error_start_time_in_past">Start time cannot be in the past</string>
+    <string name="error_end_time_before_start">End time must be after the start time</string>
+    <string name="error_location_permission_required">Location permission is required to show current location</string>
+    <string name="error_map_init_failed">Map initialization failed</string>
+    <string name="error_loading_spots_failed">Failed to load parking spots</string>
+    <string name="error_create_reservation_failed">Failed to create booking</string>
+    <string name="error_date_format">Date format error</string>
+
+    <!-- Parking Spot Info Card -->
+    <string name="spot_price_format">%.2f RON/h</string>
+    <string name="spot_reserved_format">Reserved: %1$s from %2$s to %3$s</string>
+    <string name="spot_occupied_format">Occupied: %1$s from %2$s to %3$s</string>
+    <string name="spot_undefined_period">Reservation period undefined</string>
+    <string name="spot_type_format">Type: %1$s</string>
+
+    <!-- Booking Item -->
+    <string name="booking_spot_label">Parking Spot: %1$d</string>
+    <string name="booking_status_pending">Pending</string>
+    <string name="booking_status_active">Active</string>
+    <string name="booking_status_completed">Completed</string>
+    <string name="booking_status_cancelled">Cancelled</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_title_cancel_booking">Cancel Booking</string>
+    <string name="dialog_title_extend_booking">Extend Booking</string>
+    <string name="dialog_title_active_booking">Active Booking</string>
+    <string name="dialog_confirm_cancellation">Are you sure you want to cancel this booking? This action cannot be undone.</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+</resources> 

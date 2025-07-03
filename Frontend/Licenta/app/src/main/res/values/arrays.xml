@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehicle_types">
+        <item>Autoturism</item>
+        <item>Camion</item>
+        <item>Autobuz</item>
+        <item>Motocicletă</item>
+        <item>Bicicletă</item>
+    </string-array>
+</resources> 

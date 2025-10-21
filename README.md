@@ -74,7 +74,7 @@ This repository is structured as a **monorepo** containing the two main system p
 Built using **Kotlin**, **Google Maps SDK**, and modern **Jetpack** libraries (LiveData, ViewModel, Room).  
 Implements MVVM architecture with a reactive UI.
 
-### ➡️ [Backend (Node.js Server)](Backend + DB)
+### ➡️ [Backend (Node.js Server)](/Backend + DB)
 Developed using **Node.js**, **Express**, and **TypeScript**.  
 Handles authentication, business logic, and real-time updates via **Server-Sent Events (SSE)**.  
 Data persistence handled through **PostgreSQL**.

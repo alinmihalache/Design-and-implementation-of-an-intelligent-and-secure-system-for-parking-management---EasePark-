@@ -134,40 +134,6 @@ graph TB
 ./gradlew connectedAndroidTest
 ```
 
-## 🤝 **Contribuție**
-
-Vă rugăm să citiți [CONTRIBUTING.md](CONTRIBUTING.md) pentru detalii despre procesul de contribuție.
-
-### **Workflow de Dezvoltare**
-
-1. Fork repository-ul
-2. Creează un branch pentru feature (`git checkout -b feature/AmazingFeature`)
-3. Commit schimbările (`git commit -m 'Add some AmazingFeature'`)
-4. Push la branch (`git push origin feature/AmazingFeature`)
-5. Deschide un Pull Request
-
-## 📋 **Roadmap**
-
-### **Versiunea 1.1** (În Dezvoltare)
-- [ ] Notificări push
-- [ ] Istoric rezervări
-- [ ] Statistici utilizator
-- [ ] Mod offline îmbunătățit
-
-### **Versiunea 1.2** (Planificată)
-- [ ] Plăți integrate
-- [ ] Sistem de rating
-- [ ] Chat support
-- [ ] Integrare cu calendar
-
-## 🐛 **Raportarea Bug-urilor**
-
-Pentru a raporta bug-uri sau a solicita funcționalități noi:
-
-1. Verifică dacă problema a fost deja raportată în [Issues](https://github.com/your-username/parking-app/issues)
-2. Creează un nou issue cu template-ul corespunzător
-3. Include informații detaliate despre problema întâlnită
-
 ## 📄 **Licență**
 
 Acest proiect este licențiat sub [MIT License](LICENSE) - vezi fișierul pentru detalii.
@@ -191,8 +157,8 @@ Acest proiect este licențiat sub [MIT License](LICENSE) - vezi fișierul pentru
 
 **⭐ Dacă ți-a plăcut acest proiect, dă-i un star! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/parking-app?style=social)](https://github.com/your-username/parking-app/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/parking-app?style=social)](https://github.com/your-username/parking-app/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-?style=social)](https://github.com/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-?style=social)](https://github.com/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-/network/members)
 
 </div>
 
@@ -242,11 +208,6 @@ Acest proiect reprezintă o aplicație Android pentru gestionarea locurilor de p
 - Pentru funcționalități complete, backend-ul trebuie să fie funcțional și să aibă date de test.
 - Dacă întâmpini erori de rețea, verifică adresa IP/URL din `RetrofitClient` și conexiunea la internet.
 - Pentru testare rapidă, poți folosi conturi de test sau poți crea utilizatori noi din aplicație.
-
-## 📚 Documentație suplimentară
-
-- [ARHITECTURA_HIGH_LEVEL.md](ARHITECTURA_HIGH_LEVEL.md) – descrierea arhitecturii și a fluxurilor principale
-- [DESIGN_PATTERNS_DOCUMENTATION.md](DESIGN_PATTERNS_DOCUMENTATION.md) – documentația despre pattern-urile folosite
 
 ---
 

@@ -138,11 +138,10 @@ graph TB
 
 Acest proiect este licențiat sub [MIT License](LICENSE) - vezi fișierul pentru detalii.
 
-## 👥 **Echipa**
+## 👥 **Dezvoltator**
 
-- **Lead Developer**: [Numele tău](mailto:email@example.com)
-- **UI/UX Designer**: [Numele designer-ului](mailto:designer@example.com)
-- **Backend Developer**: [Numele backend developer-ului](mailto:backend@example.com)
+- **Developer**: [Alin-Gabriel Mihalache](mailto:alin.g.mhll@gmail.com)
+
 
 ## 🙏 **Mulțumiri**
 
@@ -157,8 +156,9 @@ Acest proiect este licențiat sub [MIT License](LICENSE) - vezi fișierul pentru
 
 **⭐ Dacă ți-a plăcut acest proiect, dă-i un star! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-?style=social)](https://github.com/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-?style=social)](https://github.com/alinmihalache/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management----EasePark-/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/alinmihalache/EasePark?style=social)](https://github.com/alinmihalache/EasePark/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/alinmihalache/EasePark?style=social)](https://github.com/alinmihalache/EasePark/network/members)
+
 
 </div>
 

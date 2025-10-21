@@ -89,16 +89,24 @@ Data persistence handled through **PostgreSQL**.
 
 ```bash
 git clone https://github.com/utilizatorulMeu/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management-EasePark.git
-🖥️ Backend Setup
-bash
+```
+--- 
+
+## 🖥️ Backend Setup
+```bash
 cd backend-nodejs
 npm install
 npm run start
-📱 Frontend Setup (Android)
+```
+---
+
+## 📱 Frontend Setup (Android)
 Open the frontend-android folder in Android Studio,
 then build and run the app on a physical or virtual device.
 
-🧰 Technologies Used
+---
+
+## 🧰 Technologies Used
 Category	Stack
 Frontend	Kotlin, Jetpack Compose, Google Maps SDK
 Backend	Node.js, Express, TypeScript
@@ -107,17 +115,23 @@ Authentication	JWT, bcrypt, 2FA
 Architecture	MVVM, REST API, SSE
 DevOps	GitHub, Docker (optional), CI/CD ready
 
-🎓 Thesis Context
+---
+
+## 🎓 Thesis Context
 Developed as part of my Bachelor’s Thesis at
 Faculty of Electronics, Telecommunications, and Information Technology (TUIASI).
 
 📄 The full written thesis is available upon request.
 
-👤 Author
+---
+
+## 👤 Author
 Alin-Gabriel Mihalache
 🎓 Bachelor's Degree — Electronics, Telecommunications & IT, TUIASI
 🔗 LinkedIn: Alin-Gabriel Mihalache
 📧 alin.g.mhll@gmail.com
+
+---
 
 ## 🪪 License
 This project is open-sourced under the MIT License.

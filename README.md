@@ -83,14 +83,11 @@ Data persistence handled through **PostgreSQL**.
 
 ## ⚙️ Installation & Setup
 
----
-
 ### 🔹 Clone the Repository
 
 ```bash
 git clone https://github.com/utilizatorulMeu/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management-EasePark.git
 ```
---- 
 
 ## 🖥️ Backend Setup
 ```bash
@@ -98,7 +95,6 @@ cd backend-nodejs
 npm install
 npm run start
 ```
----
 
 ## 📱 Frontend Setup (Android)
 Open the frontend-android folder in Android Studio,

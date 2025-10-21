@@ -107,14 +107,14 @@ then build and run the app on a physical or virtual device.
 ---
 
 ## 🧰 Technologies Used
-Category	Stack
-Frontend	Kotlin, Jetpack Compose, Google Maps SDK
-Backend	Node.js, Express, TypeScript
-Database	PostgreSQL
-Authentication	JWT, bcrypt, 2FA
-Architecture	MVVM, REST API, SSE
-DevOps	GitHub, Docker (optional), CI/CD ready
-
+| Category | Stack |
+|-----------|--------|
+| **Frontend** | Kotlin, Jetpack Compose, Google Maps SDK |
+| **Backend** | Node.js, Express, TypeScript |
+| **Database** | PostgreSQL |
+| **Authentication** | JWT, bcrypt, 2FA |
+| **Architecture** | MVVM, REST API, SSE |
+| **DevOps** | GitHub, Docker (optional), CI/CD ready |
 ---
 
 ## 🎓 Thesis Context
@@ -128,7 +128,7 @@ Faculty of Electronics, Telecommunications, and Information Technology (TUIASI).
 ## 👤 Author
 Alin-Gabriel Mihalache
 🎓 Bachelor's Degree — Electronics, Telecommunications & IT, TUIASI
-🔗 LinkedIn: Alin-Gabriel Mihalache
+🔗 LinkedIn: [Alin-Gabriel Mihalache](https://www.linkedin.com/in/alin-gabriel-mihalache-67606b223/)
 📧 alin.g.mhll@gmail.com
 
 ---

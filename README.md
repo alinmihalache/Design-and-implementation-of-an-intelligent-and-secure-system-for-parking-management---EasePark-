@@ -23,7 +23,7 @@ EasePark follows a **Client–Server architecture**, where the Android client co
 
 
 ### 🧩 Top-Level System Diagram
-![System Diagram](assets/diagram.png)
+![System Diagram](assets/Diagram.png)
 
 ---
 
@@ -35,7 +35,7 @@ EasePark follows a **Client–Server architecture**, where the Android client co
 ### 🅿️ Parking & Bookings
 | Map View | Booking Details |
 |:--:|:--:|
-| ![Map View](assets/map.png) | ![Booking](assets/booking.png) |
+| ![Map View](assets/reserve.png) | ![Booking](assets/bookings.png) |
 
 ### 👤 User Profile
 ![Profile](assets/profile.png)

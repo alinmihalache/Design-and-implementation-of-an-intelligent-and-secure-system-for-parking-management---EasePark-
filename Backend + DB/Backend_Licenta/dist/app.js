@@ -32,3 +32,4 @@ app.use((err, req, res, next) => {
 // După ce pornești serverul Express:
 (0, scheduler_1.startScheduler)();
 exports.default = app;
+//test

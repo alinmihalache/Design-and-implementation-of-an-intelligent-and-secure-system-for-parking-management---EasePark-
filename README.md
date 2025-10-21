@@ -1,63 +1,124 @@
-# Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management-EasePark-
 
-This repository serves as an appendix for my bachelor's thesis.
+# 🚗 EasePark — Intelligent and Secure Parking Management System
+### *(Bachelor’s Thesis Project — Full-Stack Application)*
 
+This repository serves as an appendix for my Bachelor's Thesis project.  
+It showcases the design and implementation of **EasePark**, an intelligent, secure, and real-time **parking management system** consisting of a **native Android app** and a **Node.js backend**.
 
+---
 
+## 🌟 Key Features
 
-\# EasePark Application for parking management (Bachelor's Thesis Project)
+- 🗺️ **Real-Time Map** — View parking spots and their statuses (*Available, Pending, Active*) updated live.  
+- 📅 **Reservation System** — Create, extend, and cancel reservations instantly.  
+- ⚙️ **Automated Lifecycle** — Backend scheduler automatically transitions reservations through all stages.  
+- 🔐 **Secure Authentication** — JWT-based login with bcrypt encryption and optional 2FA.  
+- 📱 **Reactive Android Architecture** — Built on the MVVM pattern with a Single Source of Truth repository for consistent and responsive UI.
 
+---
 
+## 🏗️ System Overview
 
-This project is a complete, real-time parking management system developed as a bachelor's thesis. It consists of a native Android application for users and a Node.js backend server that manages the logic and data.
-
-
-
-\## Key Features
-
-\- \*\*Real-Time Map\*\*: View parking spots and their status (Available, Pending, Active) updated in real-time.
-
-\- \*\*Reservation System\*\*: Users can create, extend, and cancel reservations.
-
-\- \*\*Automated Lifecycle\*\*: The backend scheduler automatically handles the transition of reservations from pending to active and to completed.
-
-\- \*\*Secure Authentication\*\*: JWT-based authentication with support for 2FA and secure password storage using bcrypt.
-
-\- \*\*Reactive Architecture\*\*: The Android app is built on a modern MVVM architecture with a "Single Source of Truth" repository, ensuring a consistent and responsive UI.
+EasePark follows a **Client–Server architecture**, where the Android client communicates with the backend via a REST API and maintains a live connection using **Server-Sent Events (SSE)**.
 
 
+### 🧩 Top-Level System Diagram
+![System Diagram](assets/diagram.png)
 
-\## Project Components
+---
 
+## 📸 Application Interface
 
+### 🏠 Home Screen
+![Home Screen](assets/home.png)
 
-This repository is a monorepo containing the two main parts of the system:
+### 🅿️ Parking & Bookings
+| Map View | Booking Details |
+|:--:|:--:|
+| ![Map View](assets/map.png) | ![Booking](assets/booking.png) |
 
+### 👤 User Profile
+![Profile](assets/profile.png)
 
+---
 
-\* ### ➡️ \*\*\[Frontend (Android Application)](/frontend-android)\*\*
+## 🗃️ Database Visualization
 
-&nbsp;   \* A native Android application built with Kotlin, Google Maps SDK, and modern Jetpack libraries.
+These images illustrate how reservation data and parking spots are stored and managed in the PostgreSQL database.
 
+| Reservations Table | Parking Table |
+|:--:|:--:|
+| ![Reservations Table](assets/DB.png) | ![Parking Table](assets/DB1.png) |
 
+---
 
-\* ### ➡️ \*\*\[Backend (Node.js Server)](/backend-nodejs)\*\*
+## 🎥 Demonstration Video
 
-&nbsp;   \* A RESTful API built with Node.js, Express, and TypeScript, connected to a PostgreSQL database. It handles business logic, authentication, and real-time updates via Server-Sent Events (SSE).
+▶️ [Watch Full Demo on YouTube](https://youtube.com/shorts/_-8FSnaY6mU)  
+*(or view `assets/EasePark.mp4` locally)*
 
+<details>
+<summary>📽️ Click to see inline preview (if supported)</summary>
 
+https://github.com/utilizatorulMeu/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management-EasePark/assets/video_demo.mp4
 
-\## High-Level Architecture
+</details>
 
+---
 
+## 🧠 Project Components
 
-The system is designed following a classic Client-Server architecture. The Android client communicates with the backend via a REST API for actions and maintains a persistent connection using Server-Sent Events (SSE) for real-time status updates.
+This repository is structured as a **monorepo** containing the two main system parts:
 
+### ➡️ [Frontend (Android Application)](/frontend-android)
+Built using **Kotlin**, **Google Maps SDK**, and modern **Jetpack** libraries (LiveData, ViewModel, Room).  
+Implements MVVM architecture with a reactive UI.
 
+### ➡️ [Backend (Node.js Server)](/backend-nodejs)
+Developed using **Node.js**, **Express**, and **TypeScript**.  
+Handles authentication, business logic, and real-time updates via **Server-Sent Events (SSE)**.  
+Data persistence handled through **PostgreSQL**.
 
-`\[Client Android (MVVM)] <--- (REST API \& SSE) ---> \[Backend Node.js] <---> \[PostgreSQL Database]`
+---
 
+## ⚙️ Installation & Setup
 
+---
 
+### 🔹 Clone the Repository
 
+```bash
+git clone https://github.com/utilizatorulMeu/Design-and-implementation-of-an-intelligent-and-secure-system-for-parking-management-EasePark.git
+🖥️ Backend Setup
+bash
+cd backend-nodejs
+npm install
+npm run start
+📱 Frontend Setup (Android)
+Open the frontend-android folder in Android Studio,
+then build and run the app on a physical or virtual device.
 
+🧰 Technologies Used
+Category	Stack
+Frontend	Kotlin, Jetpack Compose, Google Maps SDK
+Backend	Node.js, Express, TypeScript
+Database	PostgreSQL
+Authentication	JWT, bcrypt, 2FA
+Architecture	MVVM, REST API, SSE
+DevOps	GitHub, Docker (optional), CI/CD ready
+
+🎓 Thesis Context
+Developed as part of my Bachelor’s Thesis at
+Faculty of Electronics, Telecommunications, and Information Technology (TUIASI).
+
+📄 The full written thesis is available upon request.
+
+👤 Author
+Alin-Gabriel Mihalache
+🎓 Bachelor's Degree — Electronics, Telecommunications & IT, TUIASI
+🔗 LinkedIn: Alin-Gabriel Mihalache
+📧 alin.g.mhll@gmail.com
+
+## 🪪 License
+This project is open-sourced under the MIT License.
+See the LICENSE file for details.

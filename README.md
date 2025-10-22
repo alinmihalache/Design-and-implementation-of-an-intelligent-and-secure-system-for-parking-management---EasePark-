@@ -54,7 +54,7 @@ These images illustrate how reservation data and parking spots are stored and ma
 
 ## 🎥 Demonstration Video
 
-▶️ [Watch Full Demo on YouTube](https://youtube.com/shorts/_-8FSnaY6mU)  
+▶️ [Watch Full Demo on YouTube](https://youtube.com/shorts/VwXJlE5cITA)  
 *(or view `assets/EasePark.mp4` locally)*
 
 <details>
